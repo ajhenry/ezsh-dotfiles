@@ -13,6 +13,8 @@ source "$HOME/.config/ezsh/ezshrc.zsh"
 # Place all of your personal configurations over there
 ZSH_CONFIGS_DIR="$HOME/.config/ezsh/zshrc"
 
+export FZF_BASE="$HOME/.config/ezsh/fzf"
+
 if [ "$(ls -A $ZSH_CONFIGS_DIR)" ]; then
     for file in "$ZSH_CONFIGS_DIR"/*; do
         # Exclude '.' and '..' from being sourced
