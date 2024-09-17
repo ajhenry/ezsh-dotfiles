@@ -90,7 +90,7 @@ else
     git clone --depth=1 https://github.com/brymck/print-alias ~/.config/ezsh/oh-my-zsh/custom/plugins/print-alias
 fi
 
-if [ -d ~/.~/.config/ezsh/fzf ]; then
+if [ -d ~/.config/ezsh/fzf ]; then
     cd ~/.config/ezsh/fzf && git pull
     ~/.config/ezsh/fzf/install --all --key-bindings --completion --no-update-rc
 else
